@@ -124,21 +124,17 @@
         }
     },
     "Energy": {
-        "joule": {
-            "convertTo": "kilojoule",
-            "factor": 0.001
-        },
         "kilojoule": {
-            "convertTo": "calorie",
-            "factor": 0.239006
+            "convertTo": "joule",
+            "factor": 1000
         },
         "calorie": {
-            "convertTo": "kilocalorie",
-            "factor": 0.001
+            "convertTo": "joule",
+            "factor": 4.184
         },
         "kilocalorie": {
-            "convertTo": "joule",
-            "factor": 4184
+            "convertTo": "calorie",
+            "factor": 1000
         }
     },
     "Speed": {
@@ -146,45 +142,33 @@
             "convertTo": "kph",
             "factor": 3.6
         },
-        "kph": {
-            "convertTo": "mph",
-            "factor": 0.621371
-        },
         "mph": {
-            "convertTo": "mps",
-            "factor": 0.44704
+            "convertTo": "kph",
+            "factor": 1.60934
         }
     },
     "Time": {
-        "second": {
+        "hour": {
             "convertTo": "minute",
-            "factor": 0.0166667
+            "factor": 60
         },
         "minute": {
-            "convertTo": "hour",
-            "factor": 0.0166667
-        },
-        "hour": {
-            "convertTo": "day",
-            "factor": 0.0416667
+            "convertTo": "second",
+            "factor": 60
         },
         "day": {
-            "convertTo": "second",
-            "factor": 86400
+            "convertTo": "hour",
+            "factor": 24
         }
     },
     "Volume": {
-        "ml": {
-            "convertTo": "liter",
-            "factor": 0.001
-        },
         "liter": {
-            "convertTo": "gallon",
-            "factor": 0.264172
+            "convertTo": "ml",
+            "factor": 1000
         },
         "gallon": {
-            "convertTo": "ml",
-            "factor": 3785.41
+            "convertTo": "liter",
+            "factor": 3.78541
         }
     }
 }
