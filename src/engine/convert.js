@@ -1,4 +1,4 @@
-import { Graph, shortestPath, NextWeightFnParams } from 'graph-data-structure';
+import { Graph, shortestPath, NextWeightFnParams } from '../graph-data-structure';
 import unitDefs from '../data/unitDefs.json';
 
 const cachedDefs = new Map();
